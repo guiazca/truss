@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@david.kucsai/react-pdf-table": "^0.3.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^5.0.0-beta.5",
+    "@material-ui/styled-engine-sc": "^5.0.0-beta.5",
+    "@react-pdf/renderer": "^2.0.19",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "file-saver": "^2.0.5",
+    "formik": "^2.2.9",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.4",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

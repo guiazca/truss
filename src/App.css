@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+body {
+  margin: 15px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +31,39 @@
 .App-link {
   color: #61dafb;
 }
+
+input .inputQTD {
+  width: 20px;
+  height: 15px;
+}
+
+text, p {
+  padding: 5px;
+  font-size: 10px;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ label {
+   font-size: 10px;
+ }
+
+ input {
+   height: 8px;
+ }
+
+ h3 {
+  font-size: 12px;
+  display: inline-block;
+  padding-right: 5px;
+ }
+/* .Produto, .nome, .contribuinte, .morada, .contato, .codigoPostal, .clienteNumero, label {
+  width: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+} */
 
 @keyframes App-logo-spin {
   from {
