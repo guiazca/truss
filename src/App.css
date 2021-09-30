@@ -33,28 +33,29 @@ body {
 }
 
 input .inputQTD {
-  width: 20px;
-  height: 15px;
+  width: 50px;
+  height: 20px;
 }
 
 text, p {
   padding: 5px;
-  font-size: 10px;
+  font-size: 14px;
 }
 p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
  label {
-   font-size: 10px;
+   font-size: 14px;
  }
 
  input {
-   height: 8px;
+   height: 14px;
+   margin-top: 5px;
  }
 
  h3 {
-  font-size: 12px;
+  font-size: 14px;
   display: inline-block;
   padding-right: 5px;
  }

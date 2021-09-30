@@ -500,7 +500,7 @@ const ProductList = ({ products, onChange }) => (
     {products.map((product, i) => (
       <div key={i} className="Produto">
         <input
-          style={{ width: 20, height: 8 }}
+          style={{ width: 25, height: 14 }}
           className="inputQTD"
           type="number"
           pattern="\d*"
