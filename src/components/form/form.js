@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     margin: "auto",
   },
   tableColVendedor: {
-    width: 100 + "%",
+    width: 50 + "%",
     borderStyle: BORDER_STYLE,
     borderColor: BORDER_COLOR,
     borderBottomColor: "#000",
@@ -137,6 +137,15 @@ const styles = StyleSheet.create({
 
 
 export function MyDocument (props) {
+  var today = new Date();
+  var dd = String(today.getDate()).padStart(2, '0');
+  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+  var yyyy = today.getFullYear();
+
+today = dd + '/' + mm + '/' + yyyy;
+
+
+
   return (
     <Document>
     <Page style={styles.body}>
@@ -145,6 +154,11 @@ export function MyDocument (props) {
         <View style={styles.tableColVendedor}>
           <Text style={styles.tableCellHeader}>
             Vendedor: Márcia & Angélica
+          </Text>
+        </View>
+        <View style={styles.tableColVendedor}>
+          <Text style={styles.tableCellHeader}>
+            Data: {today}
           </Text>
         </View>
       </View>
