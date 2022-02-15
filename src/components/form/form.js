@@ -165,26 +165,31 @@ today = dd + '/' + mm + '/' + yyyy;
 
       <View style={styles.tableRow}>
         <View style={styles.tableColCodigo}>
-          <Text style={styles.tableCellHeader}>Codigo:{props.data.codigo}</Text>
+          <Text style={styles.tableCellHeader}>Codigo: {props.data.codigo}</Text>
         </View>
         <View style={styles.tableColNome}>
-          <Text style={styles.tableCellHeader}>Nome:{props.data.nome}</Text>
+          <Text style={styles.tableCellHeader}>Nome: {props.data.nome}</Text>
         </View>
       </View>
       <View style={styles.tableRow}>
         <View style={styles.tableColCodigo}>
-          <Text style={styles.tableCellHeader}>CP:{props.data.codigoPostal}</Text>
+          <Text style={styles.tableCellHeader}>CP: {props.data.codigoPostal}</Text>
         </View>
         <View style={styles.tableColNome}>
-          <Text style={styles.tableCellHeader}>Morada:{props.data.morada}</Text>
+          <Text style={styles.tableCellHeader}>Morada: {props.data.morada}</Text>
         </View>
       </View>
       <View style={styles.tableRow}>
         <View style={styles.tableColContato}>
-          <Text style={styles.tableCellHeader}>Contato:{props.data.contato}</Text>
+          <Text style={styles.tableCellHeader}>Contato: {props.data.contato}</Text>
         </View>
         <View style={styles.tableColContato}>
-          <Text style={styles.tableCellHeader}>Contribuinte:{props.data.contribuinte}</Text>
+          <Text style={styles.tableCellHeader}>Contribuinte: {props.data.contribuinte}</Text>
+        </View>
+      </View>
+      <View style={styles.tableRow}>
+        <View style={styles.tableColEmpty}>
+          <Text style={styles.tableCellHeader}>E-mail: {props.data.email}</Text>
         </View>
       </View>
         <View style={styles.tableRow}>

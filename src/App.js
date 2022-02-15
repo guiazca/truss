@@ -38,6 +38,12 @@ state = require('../src/components/state')
       contato: evt.target.value
     });
   }
+
+  updateInputValueEmail(evt) {
+    this.setState({
+      email: evt.target.value
+    });
+  }
  
 
   onChange = (index, val) => {
@@ -134,6 +140,19 @@ state = require('../src/components/state')
                 placeholder="contato"
                 value={this.state.contato}
                 onChange={evt => this.updateInputValueContato(evt)}
+              ></input>
+            </Col>
+            <Col>
+              <label className="email" for="email">
+                email:
+              </label>
+              <input
+                className="email"
+                name="email"
+                type="email"
+                placeholder="email"
+                value={this.state.email}
+                onChange={evt => this.updateInputValueEmail(evt)}
               ></input>
             </Col>
           </Row>
