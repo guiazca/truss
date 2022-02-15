@@ -8,7 +8,7 @@ const state = {
     products: [
       {
         codigo: "101 001",
-        count: 0,
+        count: "",
         nome: "Equilibrium Sh. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -17,7 +17,7 @@ const state = {
       },
       {
         codigo: "102 001",
-        count: 0,
+        count: "",
         nome: "Equilibrium Cond. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -26,7 +26,7 @@ const state = {
       },
       {
         codigo: "101 003",
-        count: 0,
+        count: "",
         nome: "Blond Sh. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -35,7 +35,7 @@ const state = {
       },
       {
         codigo: "102 003",
-        count: 0,
+        count: "",
         nome: "Blond Cond. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -44,7 +44,7 @@ const state = {
       },
       {
         codigo: "101 006",
-        count: 0,
+        count: "",
         nome: "Miracle Sh. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -53,7 +53,7 @@ const state = {
       },
       {
         codigo: "102 006",
-        count: 0,
+        count: "",
         nome: "Miracle Cond. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -62,7 +62,7 @@ const state = {
       },
       {
         codigo: "101 007",
-        count: 0,
+        count: "",
         nome: "Sh. Therapy 300ml",
         price: 10.5,
         linha: "HOMECARE",
@@ -71,7 +71,7 @@ const state = {
       },
       {
         codigo: "101 038",
-        count: 0,
+        count: "",
         nome: "Curly Sh. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -80,7 +80,7 @@ const state = {
       },
       {
         codigo: "102 036",
-        count: 0,
+        count: "",
         nome: "Curly Cond. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -89,7 +89,7 @@ const state = {
       },
       {
         codigo: "101 038",
-        count: 0,
+        count: "",
         nome: "Infusion Sh. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -98,7 +98,7 @@ const state = {
       },
       {
         codigo: "102 036",
-        count: 0,
+        count: "",
         nome: "Infusion Cond. 300ml",
         price: 8.5,
         linha: "HOMECARE",
@@ -107,7 +107,7 @@ const state = {
       },
       {
         codigo: "102 035",
-        count: 0,
+        count: "",
         nome: "Miracle Summer Cond. 300ml",
         price: 9.0,
         linha: "HOMECARE",
@@ -116,7 +116,7 @@ const state = {
       },
       {
         codigo: "103 010",
-        count: 0,
+        count: "",
         nome: "Blond Mask 180g",
         price: 13.0,
         linha: "HOMECARE",
@@ -125,7 +125,7 @@ const state = {
       },
       {
         codigo: "103 003",
-        count: 0,
+        count: "",
         nome: "Miracle Mask 180g",
         price: 13.0,
         linha: "HOMECARE",
@@ -134,7 +134,7 @@ const state = {
       },
       {
         codigo: "103 016",
-        count: 0,
+        count: "",
         nome: "Net Mask 550g",
         price: 19.0,
         linha: "HOMECARE",
@@ -143,7 +143,7 @@ const state = {
       },
       {
         codigo: "104 012",
-        count: 0,
+        count: "",
         nome: "Night Spa Serum 250ml",
         price: 24.0,
         linha: "HOMECARE",
@@ -152,7 +152,7 @@ const state = {
       },
       {
         codigo: "104 002",
-        count: 0,
+        count: "",
         nome: "Deluxe Prime 260ml",
         price: 17.0,
         linha: "HOMECARE",
@@ -161,7 +161,7 @@ const state = {
       },
       {
         codigo: "104 028",
-        count: 0,
+        count: "",
         nome: "Deluxe Prime Blond 260ml",
         price: 19.0,
         linha: "HOMECARE",
@@ -170,7 +170,7 @@ const state = {
       },
       {
         codigo: "104 040",
-        count: 0,
+        count: "",
         nome: "Deluxe Prime Summer 260ml",
         price: 19.0,
         linha: "HOMECARE",
@@ -179,7 +179,7 @@ const state = {
       },
       {
         codigo: "305 024",
-        count: 0,
+        count: "",
         nome: "Hair Protector 250ml",
         price: 12.0,
         linha: "HOMECARE",
@@ -188,7 +188,7 @@ const state = {
       },
       {
         codigo: "305 032",
-        count: 0,
+        count: "",
         nome: "Curly Fix 250ml",
         price: 12.0,
         linha: "HOMECARE",
@@ -197,7 +197,7 @@ const state = {
       },
       {
         codigo: "313 012",
-        count: 0,
+        count: "",
         nome: "Fluid Fix 250ml",
         price: 12.0,
         linha: "HOMECARE",
@@ -206,7 +206,7 @@ const state = {
       },
       {
         codigo: "305 023",
-        count: 0,
+        count: "",
         nome: "Instant Repair 45ml",
         price: 12.0,
         linha: "HOMECARE",
@@ -215,7 +215,7 @@ const state = {
       },
       {
         codigo: "211 044",
-        count: 0,
+        count: "",
         nome: "Kit Fast Repair",
         price: 101.0,
         linha: "PROFISSIONAL",
@@ -224,7 +224,7 @@ const state = {
       },
       {
         codigo: "201 011",
-        count: 0,
+        count: "",
         nome: "Bidimensional Sh. 1000ml",
         price: 33.0,
         linha: "PROFISSIONAL",
@@ -233,7 +233,7 @@ const state = {
       },
       {
         codigo: "204 006",
-        count: 0,
+        count: "",
         nome: "Lipidic 650ml",
         price: 28.0,
         linha: "PROFISSIONAL",
@@ -242,7 +242,7 @@ const state = {
       },
       {
         codigo: "203 006",
-        count: 0,
+        count: "",
         nome: "Intensive Nutrition 1000ml",
         price: 33.0,
         linha: "PROFISSIONAL",
@@ -251,7 +251,7 @@ const state = {
       },
       {
         codigo: "201 012",
-        count: 0,
+        count: "",
         nome: "Clarifying Sh. 1000ml",
         price: 33.0,
         linha: "PROFISSIONAL",
@@ -260,7 +260,7 @@ const state = {
       },
       {
         codigo: "205 011",
-        count: 0,
+        count: "",
         nome: "Amino Miracle 225ml",
         price: 20.0,
         linha: "PROFISSIONAL",
@@ -269,7 +269,7 @@ const state = {
       },
       {
         codigo: "201 027",
-        count: 0,
+        count: "",
         nome: "Therapy Sh.",
         price: 28.0,
         linha: "PROFISSIONAL",
@@ -278,7 +278,7 @@ const state = {
       },
       {
         codigo: "204 022",
-        count: 0,
+        count: "",
         nome: "8x Powder 200g",
         price: 59.0,
         linha: "PROFISSIONAL",
@@ -287,7 +287,7 @@ const state = {
       },
       {
         codigo: "409 006",
-        count: 0,
+        count: "",
         nome: "Air Libre 500g",
         price: 23.0,
         linha: "PROFISSIONAL",
@@ -296,7 +296,7 @@ const state = {
       },
       {
         codigo: "409 007",
-        count: 0,
+        count: "",
         nome: "Blanc Blond 500g",
         price: 23.0,
         linha: "PROFISSIONAL",
@@ -305,7 +305,7 @@ const state = {
       },
       {
         codigo: "k.415000",
-        count: 0,
+        count: "",
         nome: "Papel Laminado Longo 50 x 11",
         price: 28.0,
         linha: "PROFISSIONAL",
@@ -314,7 +314,7 @@ const state = {
       },
       {
         codigo: "k.416000",
-        count: 0,
+        count: "",
         nome: "Papel Laminado Curto 25 x 11",
         price: 28.0,
         linha: "PROFISSIONAL",
@@ -323,7 +323,7 @@ const state = {
       },
       {
         codigo: "204 025",
-        count: 0,
+        count: "",
         nome: "K. Recovery 650ml",
         price: 59.0,
         linha: "PROFISSIONAL",
@@ -332,7 +332,7 @@ const state = {
       },
       {
         codigo: "203 008",
-        count: 0,
+        count: "",
         nome: "Infusion 650ml",
         price: 51.0,
         linha: "PROFISSIONAL",
@@ -341,7 +341,7 @@ const state = {
       },
       {
         codigo: "210 010",
-        count: 0,
+        count: "",
         nome: "High Liss 650ml",
         price: 70.0,
         linha: "PROFISSIONAL",
@@ -350,7 +350,7 @@ const state = {
       },
       {
         codigo: "210 011",
-        count: 0,
+        count: "",
         nome: "High Liss Blond 650ml",
         price: 75.0,
         linha: "PROFISSIONAL",

@@ -216,7 +216,7 @@ today = dd + '/' + mm + '/' + yyyy;
         </View>
         
         {props.data.products
-          .filter((data) => data.count !== 0)
+          .filter((data) => data.count !== "")
           .map((product, i) => (
             <View key={i} style={styles.tableRow}>
               <View style={styles.tableCol1}>

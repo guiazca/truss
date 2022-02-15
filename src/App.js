@@ -7,45 +7,18 @@ import { MyDocument } from "../src/components/form/form.js";
 
 class App extends React.Component {
 state = require('../src/components/state')
+
+  handleUpdate = (evt) => this.setState({
+    codigo: evt.target.value,
+    nome: evt.target.value,
+    codigoPostal: evt.target.value,
+    morada: evt.target.value,
+    contribuinte: evt.target.value,
+    email: evt.target.value,
+    contato: evt.target.value
+  })
   
-  updateInputValue(evt) {
-    this.setState({
-      codigo: evt.target.value
-    });
-  }
-  updateInputValueNome(evt) {
-    this.setState({
-      nome: evt.target.value
-    });
-  }
-  updateInputValueCP(evt) {
-    this.setState({
-      codigoPostal: evt.target.value
-    });
-  }
-  updateInputValueMorada(evt) {
-    this.setState({
-      morada: evt.target.value
-    });
-  }
-  updateInputValueContribuinte(evt) {
-    this.setState({
-      contribuinte: evt.target.value
-    });
-  }
-  updateInputValueContato(evt) {
-    this.setState({
-      contato: evt.target.value
-    });
-  }
-
-  updateInputValueEmail(evt) {
-    this.setState({
-      email: evt.target.value
-    });
-  }
- 
-
+  
   onChange = (index, val) => {
     this.setState({
       products: this.state.products.map((product, i) =>
@@ -69,7 +42,7 @@ state = require('../src/components/state')
                 name="codigo"
                 placeholder="codigo"
                 value={this.state.codigo}
-                onChange={evt => this.updateInputValue(evt)}
+                onChange={evt => this.setState({codigo : evt.target.value})}
               ></input>
             </Col>
           </Row>
@@ -82,7 +55,7 @@ state = require('../src/components/state')
                 name="nome"
                 placeholder="Nome"
                 value={this.state.nome}
-                onChange={evt => this.updateInputValueNome(evt)}
+                onChange={evt => this.setState({nome : evt.target.value})}
               ></input>
             </Col>
           </Row>
@@ -98,7 +71,7 @@ state = require('../src/components/state')
                 name="codigoPostal"
                 placeholder="Código Postal"
                 value={this.state.codigoPostal}
-                onChange={evt => this.updateInputValueCP(evt)}
+                onChange={evt => this.setState({codigoPostal : evt.target.value})}
               ></input>
             </Col>
             <Col>
@@ -109,7 +82,7 @@ state = require('../src/components/state')
                 type="text"
                 placeholder="morada"
                 value={this.state.morada}
-                onChange={evt => this.updateInputValueMorada(evt)}
+                onChange={evt => this.setState({morada : evt.target.value})}
               ></input>
             </Col>
           </Row>
@@ -125,7 +98,7 @@ state = require('../src/components/state')
                 pattern="\d*"
                 placeholder="contribuinte"
                 value={this.state.contribuinte}
-                onChange={evt => this.updateInputValueContribuinte(evt)}
+                onChange={evt => this.setState({contribuinte : evt.target.value})}
               ></input>
             </Col>
             <Col>
@@ -139,7 +112,7 @@ state = require('../src/components/state')
                 pattern="\d*"
                 placeholder="contato"
                 value={this.state.contato}
-                onChange={evt => this.updateInputValueContato(evt)}
+                onChange={evt => this.setState({contato : evt.target.value})}
               ></input>
             </Col>
             <Col>
@@ -152,7 +125,7 @@ state = require('../src/components/state')
                 type="email"
                 placeholder="email"
                 value={this.state.email}
-                onChange={evt => this.updateInputValueEmail(evt)}
+                onChange={evt => this.setState({email : evt.target.value})}
               ></input>
             </Col>
           </Row>
@@ -193,7 +166,7 @@ const ProductList = ({ products, onChange }) => (
           value={product.count}
           min="0"
           oninput="this.value = Math.abs(this.value)"
-          onChange={(e) => onChange(i, parseInt(e.target.value) || 0)}
+          onChange={(e) => onChange(i, parseInt(e.target.value) || "")}
         />
         <text>{product.nome}</text>
       </div>
