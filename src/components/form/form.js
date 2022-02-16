@@ -176,7 +176,7 @@ today = dd + '/' + mm + '/' + yyyy;
           <Text style={styles.tableCellHeader}>CP: {props.data.codigoPostal}</Text>
         </View>
         <View style={styles.tableColNome}>
-          <Text style={styles.tableCellHeader}>Morada: {props.data.morada}</Text>
+          <Text style={styles.tableCellHeader}>Morada: {props.data.morada}, {props.data.numeroPorta}, {props.data.localidade} - {props.data.concelho}</Text>
         </View>
       </View>
       <View style={styles.tableRow}>

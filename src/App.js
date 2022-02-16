@@ -1,12 +1,34 @@
 import "./App.css";
-import React from "react";
+import React, {setValue} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 import { MyDocument } from "../src/components/form/form.js";
+import axios from 'axios';
+import { useForm } from 'react-hook-form';
 
 
 class App extends React.Component {
-state = require('../src/components/state')
+state = require('../src/components/state');
+
+ 
+
+  onBlurCep = evt => {
+    axios.get(`https://api.duminio.com/ptcp/v2/ptapi6155f9466897a6.83931889/${evt.target.value}`)
+    .then(res => {
+      const cep = res.data;
+      if(cep[0]){
+        console.log(cep[0])
+        this.setState({
+          morada : cep[0].Morada,
+          localidade : cep[0].Localidade,
+          concelho : cep[0].Concelho
+
+        })
+      }
+      
+      
+    })
+  }
 
   handleUpdate = (evt) => this.setState({
     codigo: evt.target.value,
@@ -15,10 +37,12 @@ state = require('../src/components/state')
     morada: evt.target.value,
     contribuinte: evt.target.value,
     email: evt.target.value,
-    contato: evt.target.value
+    contato: evt.target.value,
+    numeroPorta: evt.target.value,
+    localidade: evt.target.value,
+    freguesia: evt.target.value,
   })
-  
-  
+
   onChange = (index, val) => {
     this.setState({
       products: this.state.products.map((product, i) =>
@@ -27,11 +51,13 @@ state = require('../src/components/state')
     });
   };
 
+
+
   render() {
     return (
       <Container>
         <text>Vendedor: Márcia e Angélica</text>
-        <div className="Produto">
+        <form className="Produto">
           <Row>
             <Col sm="8">
               <label for="codigo">Código:</label>
@@ -72,6 +98,7 @@ state = require('../src/components/state')
                 placeholder="Código Postal"
                 value={this.state.codigoPostal}
                 onChange={evt => this.setState({codigoPostal : evt.target.value})}
+                onBlur={this.onBlurCep}
               ></input>
             </Col>
             <Col>
@@ -83,6 +110,37 @@ state = require('../src/components/state')
                 placeholder="morada"
                 value={this.state.morada}
                 onChange={evt => this.setState({morada : evt.target.value})}
+              ></input>
+            </Col>
+            <Col>
+              <label for="numeroPorta">numero da porta:</label>
+              <input
+                className="numeroPorta"
+                name="numeroPorta"
+                type="text"
+                placeholder="numeroPorta"
+                value={this.state.numeroPorta}
+                onChange={evt => this.setState({numeroPorta : evt.target.value})}
+              ></input>
+            </Col>
+            <Col>
+              <input
+                className="localidade"
+                name="localidade"
+                type="hidden"
+                placeholder="localidade"
+                value={this.state.localidade}
+                onChange={evt => this.setState({localidade : evt.target.value})}
+              ></input>
+            </Col>
+            <Col>
+              <input
+                className="concelho"
+                name="concelho"
+                type="hidden"
+                placeholder="concelho"
+                value={this.state.concelho}
+                onChange={evt => this.setState({concelho : evt.target.value})}
               ></input>
             </Col>
           </Row>
@@ -129,7 +187,7 @@ state = require('../src/components/state')
               ></input>
             </Col>
           </Row>
-        </div>
+        </form>
         <ProductList products={this.state.products} onChange={this.onChange} />
         <Total products={this.state.products} />
         {/* <Iva products={this.state.products} /> */}
