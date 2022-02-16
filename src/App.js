@@ -1,10 +1,9 @@
 import "./App.css";
-import React, {setValue} from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 import { MyDocument } from "../src/components/form/form.js";
 import axios from 'axios';
-import { useForm } from 'react-hook-form';
 
 
 class App extends React.Component {
