@@ -29,19 +29,6 @@ state = require('../src/components/state');
     })
   }
 
-  handleUpdate = (evt) => this.setState({
-    codigo: evt.target.value,
-    nome: evt.target.value,
-    codigoPostal: evt.target.value,
-    morada: evt.target.value,
-    contribuinte: evt.target.value,
-    email: evt.target.value,
-    contato: evt.target.value,
-    numeroPorta: evt.target.value,
-    localidade: evt.target.value,
-    freguesia: evt.target.value,
-  })
-
   onChange = (index, val) => {
     this.setState({
       products: this.state.products.map((product, i) =>
