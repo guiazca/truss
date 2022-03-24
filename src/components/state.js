@@ -412,15 +412,6 @@ const state = {
       estoque: true,
     },
     {
-      codigo: "414 002",
-      count: "",
-      nome: "Natural Copper Golden 0.43 60g",
-      price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
-      estoque: true,
-    },
-    {
       codigo: "414 003",
       count: "",
       nome: "Natural Golden 0.03 60g",
@@ -441,7 +432,7 @@ const state = {
     {
       codigo: "414 005",
       count: "",
-      nome: "Lightest Golden Blond 10.3 60g",
+      nome: "Lightest Golden Blonde 10.3 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "TONNERS",
@@ -450,7 +441,7 @@ const state = {
     {
       codigo: "414 006",
       count: "",
-      nome: "Lightest Burgandy Blond 10.72 60g",
+      nome: "Lightest Burgandy Blonde 10.72 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "TONNERS",
@@ -459,7 +450,7 @@ const state = {
     {
       codigo: "414 007",
       count: "",
-      nome: "Lightest Pearl Blond 10.72 60g",
+      nome: "Light Brown Golden Blonde 8.73 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "TONNERS",
@@ -468,7 +459,7 @@ const state = {
     {
       codigo: "414 008",
       count: "",
-      nome: "Light Brown Golden Blond 8.73 60g",
+      nome: "Light Brown Golden Blonde 8.73 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "TONNERS",
@@ -477,7 +468,7 @@ const state = {
     {
       codigo: "414 009",
       count: "",
-      nome: "Super High Light Platinum Blond 11.2",
+      nome: "Super High Light Platinum Blonde 11.2 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "TONNERS",
@@ -486,7 +477,7 @@ const state = {
     {
       codigo: "414 010",
       count: "",
-      nome: "Super High Lift Violet Ash Blonde 11.21",
+      nome: "Super High Lift Violet Ash Blonde 11.21 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "TONNERS",
@@ -504,7 +495,7 @@ const state = {
     {
       codigo: "407 032",
       count: "",
-      nome: "Dark Blond 6.0 60g",
+      nome: "Dark Blonde 6.0 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "PERMANENT",
@@ -513,7 +504,7 @@ const state = {
     {
       codigo: "407 033",
       count: "",
-      nome: "Medium Blond 7.0 60g",
+      nome: "Medium Blonde 7.0 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "PERMANENT",
@@ -522,7 +513,7 @@ const state = {
     {
       codigo: "407 034",
       count: "",
-      nome: "Light Blond 8.0 60g",
+      nome: "Light Blonde 8.0 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "PERMANENT",
@@ -531,7 +522,7 @@ const state = {
     {
       codigo: "407 063",
       count: "",
-      nome: "Very Light Pearl Blond 9.89 60g",
+      nome: "Very Light Pearl Blonde 9.89 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "PERMANENT",
@@ -558,7 +549,7 @@ const state = {
     {
       codigo: "406 018",
       count: "",
-      nome: "Medium Blond 7.0 S/P 60g",
+      nome: "Medium Blonde 7.0 S/P 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "SEMI PERMANENT",
@@ -567,7 +558,7 @@ const state = {
     {
       codigo: "406 019",
       count: "",
-      nome: "Light Blond 8.0 S/P 60g",
+      nome: "Light Blonde 8.0 S/P 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "SEMI PERMANENT",
@@ -585,7 +576,7 @@ const state = {
     {
       codigo: "406 026",
       count: "",
-      nome: "Very Light Golden Beige Blond 9.31 S/P 60g",
+      nome: "Very Light Golden Beige Blonde 9.31 S/P 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "SEMI PERMANENT",
@@ -594,7 +585,7 @@ const state = {
     {
       codigo: "406 010",
       count: "",
-      nome: "Medium Chestnut Blond 7.7 S/P 60g",
+      nome: "Medium Chestnut Blonde 7.7 S/P 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "SEMI PERMANENT",
@@ -603,7 +594,7 @@ const state = {
     {
       codigo: "406 004",
       count: "",
-      nome: "Dark Ash Blond 6.1 60g",
+      nome: "Dark Ash Blonde 6.1 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "SEMI PERMANENT",
@@ -612,7 +603,7 @@ const state = {
     {
       codigo: "406 008",
       count: "",
-      nome: "Dark Chestnut Blond 6.7 60g",
+      nome: "Dark Chestnut Blonde 6.7 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "SEMI PERMANENT",
@@ -621,7 +612,7 @@ const state = {
     {
       codigo: "406 009",
       count: "",
-      nome: "Medium Ash Blond 7.1 60g",
+      nome: "Medium Ash Blonde 7.1 60g",
       price: 9.8,
       linha: "PROFISSIONAL",
       subLinha: "SEMI PERMANENT",
