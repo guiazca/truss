@@ -448,15 +448,6 @@ const state = {
       estoque: true,
     },
     {
-      codigo: "414 007",
-      count: "",
-      nome: "Light Brown Golden Blonde 8.73 60g",
-      price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
-      estoque: true,
-    },
-    {
       codigo: "414 008",
       count: "",
       nome: "Light Brown Golden Blonde 8.73 60g",
