@@ -206,19 +206,22 @@ class App extends React.Component {
 const ProductList = ({ products, onChange }) => (
   <div>
     {products.map((product, i) => (
-      <div key={i} className="Produto">
-        <input
-          style={{ width: 25, height: 14 }}
-          className="inputQTD"
-          type="number"
-          pattern="\d*"
-          value={product.count}
-          min="0"
-          oninput="this.value = Math.abs(this.value)"
-          onChange={(e) => onChange(i, parseInt(e.target.value) || "")}
-        />
-        <text>{product.nome}</text>
-      </div>
+      <>
+        {product.subLinha ? <h3 style={{}}>{product.subLinha}</h3> : ""}
+        <div key={i} className="Produto">
+          <input
+            style={{ width: 25, height: 14 }}
+            className="inputQTD"
+            type="number"
+            pattern="\d*"
+            value={product.count}
+            min="0"
+            oninput="this.value = Math.abs(this.value)"
+            onChange={(e) => onChange(i, parseInt(e.target.value) || "")}
+          />
+          <text>{product.nome}</text>
+        </div>
+      </>
     ))}
   </div>
 )

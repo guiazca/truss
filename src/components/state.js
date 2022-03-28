@@ -20,8 +20,6 @@ const state = {
       count: "",
       nome: "Equilibrium Cond. 300ml",
       price: 8.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -29,8 +27,6 @@ const state = {
       count: "",
       nome: "Blond Sh. 300ml",
       price: 8.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -38,8 +34,6 @@ const state = {
       count: "",
       nome: "Blond Cond. 300ml",
       price: 8.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -47,8 +41,6 @@ const state = {
       count: "",
       nome: "Miracle Sh. 300ml",
       price: 8.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -56,8 +48,6 @@ const state = {
       count: "",
       nome: "Miracle Cond. 300ml",
       price: 8.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -65,8 +55,6 @@ const state = {
       count: "",
       nome: "Sh. Therapy 300ml",
       price: 10.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -74,8 +62,6 @@ const state = {
       count: "",
       nome: "Curly Sh. 300ml",
       price: 8.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -83,8 +69,6 @@ const state = {
       count: "",
       nome: "Curly Cond. 300ml",
       price: 8.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -92,8 +76,6 @@ const state = {
       count: "",
       nome: "Infusion Sh. 300ml",
       price: 8.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -101,8 +83,13 @@ const state = {
       count: "",
       nome: "Infusion Cond. 300ml",
       price: 8.5,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
+      estoque: true,
+    },
+    {
+      codigo: "102 037",
+      count: "",
+      nome: "Miracle Summer Shampoo. 300ml",
+      price: 9.0,
       estoque: true,
     },
     {
@@ -110,8 +97,6 @@ const state = {
       count: "",
       nome: "Miracle Summer Cond. 300ml",
       price: 9.0,
-      linha: "HOMECARE",
-      subLinha: "DAILY CARE",
       estoque: true,
     },
     {
@@ -119,7 +104,6 @@ const state = {
       count: "",
       nome: "Blond Mask 180g",
       price: 13.0,
-      linha: "HOMECARE",
       subLinha: "WEEKLY CARE",
       estoque: true,
     },
@@ -128,8 +112,6 @@ const state = {
       count: "",
       nome: "Miracle Mask 180g",
       price: 13.0,
-      linha: "HOMECARE",
-      subLinha: "WEEKLY CARE",
       estoque: true,
     },
     {
@@ -137,8 +119,6 @@ const state = {
       count: "",
       nome: "Net Mask 550g",
       price: 19.0,
-      linha: "HOMECARE",
-      subLinha: "WEEKLY CARE",
       estoque: true,
     },
     {
@@ -146,8 +126,6 @@ const state = {
       count: "",
       nome: "Night Spa Serum 250ml",
       price: 24.0,
-      linha: "HOMECARE",
-      subLinha: "WEEKLY CARE",
       estoque: true,
     },
     {
@@ -155,17 +133,13 @@ const state = {
       count: "",
       nome: "Deluxe Prime 260ml",
       price: 17.0,
-      linha: "HOMECARE",
-      subLinha: "WEEKLY CARE",
       estoque: true,
     },
     {
       codigo: "104 028",
       count: "",
-      nome: "Deluxe Prime Blond 260ml",
+      nome: "Deluxe Prime Champagne Blond 260ml",
       price: 19.0,
-      linha: "HOMECARE",
-      subLinha: "WEEKLY CARE",
       estoque: true,
     },
     {
@@ -173,8 +147,6 @@ const state = {
       count: "",
       nome: "Deluxe Prime Summer 260ml",
       price: 19.0,
-      linha: "HOMECARE",
-      subLinha: "WEEKLY CARE",
       estoque: true,
     },
     {
@@ -182,7 +154,6 @@ const state = {
       count: "",
       nome: "Hair Protector 250ml",
       price: 12.0,
-      linha: "HOMECARE",
       subLinha: "FINISH",
       estoque: true,
     },
@@ -191,8 +162,6 @@ const state = {
       count: "",
       nome: "Curly Fix 250ml",
       price: 12.0,
-      linha: "HOMECARE",
-      subLinha: "FINISH",
       estoque: true,
     },
     {
@@ -200,8 +169,6 @@ const state = {
       count: "",
       nome: "Fluid Fix 250ml",
       price: 12.0,
-      linha: "HOMECARE",
-      subLinha: "FINISH",
       estoque: true,
     },
     {
@@ -209,8 +176,6 @@ const state = {
       count: "",
       nome: "Instant Repair 45ml",
       price: 12.0,
-      linha: "HOMECARE",
-      subLinha: "FINISH",
       estoque: true,
     },
     {
@@ -218,8 +183,6 @@ const state = {
       count: "",
       nome: "Curly Twist 650ml",
       price: 40.8,
-      linha: "HOMECARE",
-      subLinha: "FINISH",
       estoque: true,
     },
     {
@@ -227,8 +190,6 @@ const state = {
       count: "",
       nome: "Beach Waves 260ml",
       price: 26.2,
-      linha: "HOMECARE",
-      subLinha: "FINISH",
       estoque: true,
     },
     {
@@ -245,8 +206,6 @@ const state = {
       count: "",
       nome: "Bidimensional Sh. 1000ml",
       price: 33.0,
-      linha: "PROFISSIONAL",
-      subLinha: "BACK BAR ESSENTIALS - MIRACLE",
       estoque: true,
     },
     {
@@ -254,8 +213,6 @@ const state = {
       count: "",
       nome: "No Metal Equalizer Shampoo 1000ml",
       price: 58.8,
-      linha: "PROFISSIONAL",
-      subLinha: "BACK BAR ESSENTIALS - MIRACLE",
       estoque: true,
     },
     {
@@ -263,8 +220,6 @@ const state = {
       count: "",
       nome: "Lipidic 650ml",
       price: 28.0,
-      linha: "PROFISSIONAL",
-      subLinha: "BACK BAR ESSENTIALS - MIRACLE",
       estoque: true,
     },
     {
@@ -272,8 +227,6 @@ const state = {
       count: "",
       nome: "Intensive Nutrition 1000ml",
       price: 33.0,
-      linha: "PROFISSIONAL",
-      subLinha: "BACK BAR ESSENTIALS - MIRACLE",
       estoque: true,
     },
     {
@@ -281,8 +234,6 @@ const state = {
       count: "",
       nome: "Clarifying Sh. 1000ml",
       price: 33.0,
-      linha: "PROFISSIONAL",
-      subLinha: "BACK BAR ESSENTIALS - MIRACLE",
       estoque: true,
     },
     {
@@ -290,17 +241,14 @@ const state = {
       count: "",
       nome: "Amino Miracle 225ml",
       price: 20.0,
-      linha: "PROFISSIONAL",
-      subLinha: "BACK BAR ESSENTIALS - MIRACLE",
       estoque: true,
     },
     {
       codigo: "201 015",
       count: "",
       nome: "Basic Shampoo 2400ml",
-      price: 71.8,
-      linha: "PROFISSIONAL",
       subLinha: "BACK BAR ESSENTIALS",
+      price: 71.8,
       estoque: true,
     },
     {
@@ -308,8 +256,6 @@ const state = {
       count: "",
       nome: "Basic Conditioner 2400ml",
       price: 78.4,
-      linha: "PROFISSIONAL",
-      subLinha: "BACK BAR ESSENTIALS",
       estoque: true,
     },
     {
@@ -317,8 +263,6 @@ const state = {
       count: "",
       nome: "Therapy Shampoo 1000ml.",
       price: 28.0,
-      linha: "PROFISSIONAL",
-      subLinha: "BACK BAR ESSENTIALS",
       estoque: true,
     },
     {
@@ -326,7 +270,6 @@ const state = {
       count: "",
       nome: "8x Powder 200g",
       price: 59.0,
-      linha: "PROFISSIONAL",
       subLinha: "PERFECT BLOND",
       estoque: true,
     },
@@ -335,8 +278,6 @@ const state = {
       count: "",
       nome: "Air Libre 500g",
       price: 23.0,
-      linha: "PROFISSIONAL",
-      subLinha: "PERFECT BLOND",
       estoque: true,
     },
     {
@@ -344,8 +285,6 @@ const state = {
       count: "",
       nome: "Blanc Blond 500g",
       price: 23.0,
-      linha: "PROFISSIONAL",
-      subLinha: "PERFECT BLOND",
       estoque: true,
     },
     {
@@ -353,8 +292,6 @@ const state = {
       count: "",
       nome: "Papel Laminado Longo 50 x 11",
       price: 28.0,
-      linha: "PROFISSIONAL",
-      subLinha: "PERFECT BLOND",
       estoque: true,
     },
     {
@@ -362,8 +299,6 @@ const state = {
       count: "",
       nome: "Papel Laminado Curto 25 x 11",
       price: 28.0,
-      linha: "PROFISSIONAL",
-      subLinha: "PERFECT BLOND",
       estoque: true,
     },
     {
@@ -371,7 +306,6 @@ const state = {
       count: "",
       nome: "K. Recovery 650ml",
       price: 59.0,
-      linha: "PROFISSIONAL",
       subLinha: "RECOVERY ESSENTIALS",
       estoque: true,
     },
@@ -380,8 +314,6 @@ const state = {
       count: "",
       nome: "Infusion 650ml",
       price: 51.0,
-      linha: "PROFISSIONAL",
-      subLinha: "RECOVERY ESSENTIALS",
       estoque: true,
     },
     {
@@ -389,7 +321,6 @@ const state = {
       count: "",
       nome: "High Liss 650ml",
       price: 70.0,
-      linha: "PROFISSIONAL",
       subLinha: "SMOOTHING TREATMENT",
       estoque: true,
     },
@@ -398,8 +329,6 @@ const state = {
       count: "",
       nome: "High Liss Blond 650ml",
       price: 75.0,
-      linha: "PROFISSIONAL",
-      subLinha: "SMOOTHING TREATMENT",
       estoque: true,
     },
     {
@@ -407,7 +336,6 @@ const state = {
       count: "",
       nome: "Natural Copper Golden 0.43 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
       subLinha: "TONNERS",
       estoque: true,
     },
@@ -416,8 +344,6 @@ const state = {
       count: "",
       nome: "Natural Golden 0.03 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
       estoque: true,
     },
     {
@@ -425,8 +351,6 @@ const state = {
       count: "",
       nome: "Natural Golden Copper 0.034 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
       estoque: true,
     },
     {
@@ -434,8 +358,6 @@ const state = {
       count: "",
       nome: "Natural Golden Copper 0.34 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
       estoque: true,
     },
     {
@@ -443,8 +365,6 @@ const state = {
       count: "",
       nome: "Lightest Golden Blonde 10.3 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
       estoque: true,
     },
     {
@@ -452,8 +372,6 @@ const state = {
       count: "",
       nome: "Lightest Burgandy Blonde 10.72 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
       estoque: true,
     },
     {
@@ -461,8 +379,6 @@ const state = {
       count: "",
       nome: "Light Brown Golden Blonde 8.73 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
       estoque: true,
     },
     {
@@ -470,8 +386,6 @@ const state = {
       count: "",
       nome: "Super High Light Platinum Blonde 11.2 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
       estoque: true,
     },
     {
@@ -479,8 +393,6 @@ const state = {
       count: "",
       nome: "Super High Lift Violet Ash Blonde 11.21 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "TONNERS",
       estoque: true,
     },
     {
@@ -488,7 +400,6 @@ const state = {
       count: "",
       nome: "Light Brown 5.0 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
       subLinha: "PERMANENT",
       estoque: true,
     },
@@ -497,8 +408,6 @@ const state = {
       count: "",
       nome: "Dark Blonde 6.0 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "PERMANENT",
       estoque: true,
     },
     {
@@ -506,8 +415,6 @@ const state = {
       count: "",
       nome: "Medium Blonde 7.0 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "PERMANENT",
       estoque: true,
     },
     {
@@ -515,8 +422,6 @@ const state = {
       count: "",
       nome: "Light Blonde 8.0 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "PERMANENT",
       estoque: true,
     },
     {
@@ -524,8 +429,6 @@ const state = {
       count: "",
       nome: "Very Light Pearl Blonde 9.89 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "PERMANENT",
       estoque: true,
     },
     {
@@ -533,7 +436,6 @@ const state = {
       count: "",
       nome: "Light Brown 5.0 S/P 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
       subLinha: "SEMI PERMANENT",
       estoque: true,
     },
@@ -542,8 +444,6 @@ const state = {
       count: "",
       nome: "Dark Blonde 6.0 S/P 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
     {
@@ -551,8 +451,6 @@ const state = {
       count: "",
       nome: "Medium Blonde 7.0 S/P 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
     {
@@ -560,8 +458,6 @@ const state = {
       count: "",
       nome: "Light Blonde 8.0 S/P 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
     {
@@ -569,8 +465,6 @@ const state = {
       count: "",
       nome: "Dark Golden Blonde 6.3 S/P 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
     {
@@ -578,8 +472,6 @@ const state = {
       count: "",
       nome: "Very Light Golden Beige Blonde 9.31 S/P 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
     {
@@ -587,8 +479,6 @@ const state = {
       count: "",
       nome: "Medium Chestnut Blonde 7.7 S/P 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
     {
@@ -596,8 +486,6 @@ const state = {
       count: "",
       nome: "Dark Ash Blonde 6.1 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
     {
@@ -605,8 +493,6 @@ const state = {
       count: "",
       nome: "Dark Chestnut Blonde 6.7 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
     {
@@ -614,8 +500,6 @@ const state = {
       count: "",
       nome: "Medium Ash Blonde 7.1 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
     {
@@ -623,8 +507,6 @@ const state = {
       count: "",
       nome: "Medium Pearl Blonde 7.89 S/P 60g",
       price: 9.8,
-      linha: "PROFISSIONAL",
-      subLinha: "SEMI PERMANENT",
       estoque: true,
     },
   ],
