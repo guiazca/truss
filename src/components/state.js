@@ -520,14 +520,14 @@ const state = {
     {
       codigo: "85163200.32",
       count: "",
-      nome: "MODELADOR GOLD 32MM (PINCA) 220V",
+      nome: "MODELADOR GOLD 32MM (PINÇA) 220V",
       price: 170,
       estoque: true,
     },
     {
       codigo: "85163200.25",
       count: "",
-      nome: "MODELADOR GOLD 25MM (PINCA) 220V",
+      nome: "MODELADOR GOLD 25MM (PINÇA) 220V",
       price: 170,
       estoque: true,
     },
