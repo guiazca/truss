@@ -509,6 +509,28 @@ const state = {
       price: 9.8,
       estoque: true,
     },
+    {
+      codigo: "85163200",
+      count: "",
+      nome: "PRO 480 GREY BIVOLT 127V-220V - MQ",
+      subLinha: "MQ",
+      price: 175,
+      estoque: true,
+    },
+    {
+      codigo: "85163200.32",
+      count: "",
+      nome: "MODELADOR GOLD 32MM (PINCA) 220V",
+      price: 170,
+      estoque: true,
+    },
+    {
+      codigo: "85163200.25",
+      count: "",
+      nome: "MODELADOR GOLD 25MM (PINCA) 220V",
+      price: 170,
+      estoque: true,
+    },
   ],
   dados: [
     {
