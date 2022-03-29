@@ -207,7 +207,7 @@ const ProductList = ({ products, onChange }) => (
   <div>
     {products.map((product, i) => (
       <>
-        {product.subLinha ? <h3 style={{}}>{product.subLinha}</h3> : ""}
+        {product.subLinha ? <h3>{product.subLinha}</h3> : ""}
         <div key={i} className="Produto">
           <input
             style={{ width: 25, height: 14 }}
