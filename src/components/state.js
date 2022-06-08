@@ -240,7 +240,7 @@ const state = {
       codigo: "205 011",
       count: "",
       nome: "Amino Miracle 225ml",
-      price: 20.0,
+      price: 24.9,
       estoque: true,
     },
     {
