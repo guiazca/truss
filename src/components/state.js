@@ -202,6 +202,13 @@ const state = {
       estoque: true,
     },
     {
+      codigo: "710",
+      count: "",
+      nome: "Perfect Balayage Treatment 1000ml",
+      price: 182.9,
+      estoque: true,
+    },
+    {
       codigo: "201 011",
       count: "",
       nome: "Bidimensional Sh. 1000ml",
