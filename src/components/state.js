@@ -202,6 +202,15 @@ const state = {
       estoque: true,
     },
     {
+      codigo: "211 045",
+      count: "",
+      nome: "Fluid Deep Reconstruction 500ml",
+      price: 83.1,
+      linha: "PROFISSIONAL",
+      subLinha: "BACK BAR ESSENTIALS - MIRACLE",
+      estoque: true,
+    },
+    {
       codigo: "710",
       count: "",
       nome: "Perfect Balayage Treatment 1000ml",
@@ -308,6 +317,21 @@ const state = {
       price: 34.9,
       estoque: true,
     },
+    {
+      codigo: "k.418000",
+      count: "",
+      nome: "Papel Eco Mechas Personalizado (MINIMO 50KG)",
+      price: 12.9,
+      estoque: true,
+    },
+    {
+      codigo: "k.419000",
+      count: "",
+      nome: "Papel Eco Mechas Normal (1KG)",
+      price: 14.9,
+      estoque: true,
+    },
+
     {
       codigo: "204 025",
       count: "",
