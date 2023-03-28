@@ -37,7 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <Container>
-        <text>Vendedor: Márcia e Angélica</text>
+        <text>Vendedor: Paula Paulino</text>
         <form className="Produto">
           <Row>
             <Col sm="8">
