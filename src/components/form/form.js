@@ -153,7 +153,7 @@ today = dd + '/' + mm + '/' + yyyy;
       <View style={styles.tableRow}>
         <View style={styles.tableColVendedor}>
           <Text style={styles.tableCellHeader}>
-            Vendedor: Márcia & Angélica
+            Vendedor: Priscila Lopes
           </Text>
         </View>
         <View style={styles.tableColVendedor}>
